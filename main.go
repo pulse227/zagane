@@ -1,9 +1,10 @@
+//go:build !go1.12
 // +build !go1.12
 
 package main
 
 import (
-	"github.com/gcpug/zagane/passes/unstopiter"
+	"github.com/pulse227/zagane/passes/unstopiter"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 

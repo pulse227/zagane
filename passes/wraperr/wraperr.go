@@ -5,10 +5,10 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/gcpug/zagane/zaganeutils"
 	"github.com/gostaticanalysis/analysisutil"
 	"github.com/gostaticanalysis/comment"
 	"github.com/gostaticanalysis/comment/passes/commentmap"
+	"github.com/pulse227/zagane/zaganeutils"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/buildssa"
 	"golang.org/x/tools/go/ssa"

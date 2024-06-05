@@ -3,8 +3,8 @@ package unclosetx_test
 import (
 	"testing"
 
-	"github.com/gcpug/zagane/passes/unclosetx"
 	"github.com/gostaticanalysis/testutil"
+	"github.com/pulse227/zagane/passes/unclosetx"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 
