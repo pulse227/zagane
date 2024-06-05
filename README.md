@@ -3,6 +3,8 @@
 [![CircleCI](https://circleci.com/gh/pulse227/zagane.svg?style=svg)](https://circleci.com/gh/pulse227/zagane)
 [![GoDoc](https://godoc.org/github.com/pulse227/zagane?status.svg)](https://godoc.org/github.com/pulse227/zagane)
 
+⚠️⚠️⚠️ This project is not compatible with newer versions of Go. ⚠️⚠️⚠️
+
 `zagane` is a static analysis tool which can find bugs in spanner's code.
 `zagane` consists of several analyzers.
 
