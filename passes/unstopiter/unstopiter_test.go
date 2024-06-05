@@ -3,8 +3,8 @@ package unstopiter_test
 import (
 	"testing"
 
-	"github.com/gcpug/zagane/passes/unstopiter"
 	"github.com/gostaticanalysis/testutil"
+	"github.com/pulse227/zagane/passes/unstopiter"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

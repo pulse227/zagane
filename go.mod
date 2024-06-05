@@ -1,4 +1,4 @@
-module github.com/gcpug/zagane
+module github.com/pulse227/zagane
 
 go 1.15
 

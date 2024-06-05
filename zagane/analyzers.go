@@ -1,9 +1,9 @@
 package zagane
 
 import (
-	"github.com/gcpug/zagane/passes/unclosetx"
-	"github.com/gcpug/zagane/passes/unstopiter"
-	"github.com/gcpug/zagane/passes/wraperr"
+	"github.com/pulse227/zagane/passes/unclosetx"
+	"github.com/pulse227/zagane/passes/unstopiter"
+	"github.com/pulse227/zagane/passes/wraperr"
 	"golang.org/x/tools/go/analysis"
 )
 

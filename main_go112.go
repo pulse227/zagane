@@ -1,9 +1,10 @@
+//go:build go1.12
 // +build go1.12
 
 package main
 
 import (
-	"github.com/gcpug/zagane/zagane"
+	"github.com/pulse227/zagane/zagane"
 	"golang.org/x/tools/go/analysis/unitchecker"
 )
 

@@ -3,8 +3,8 @@ package wraperr_test
 import (
 	"testing"
 
-	"github.com/gcpug/zagane/passes/wraperr"
 	"github.com/gostaticanalysis/testutil"
+	"github.com/pulse227/zagane/passes/wraperr"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

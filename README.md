@@ -1,7 +1,7 @@
 # zagane
 
-[![CircleCI](https://circleci.com/gh/gcpug/zagane.svg?style=svg)](https://circleci.com/gh/gcpug/zagane)
-[![GoDoc](https://godoc.org/github.com/gcpug/zagane?status.svg)](https://godoc.org/github.com/gcpug/zagane)
+[![CircleCI](https://circleci.com/gh/pulse227/zagane.svg?style=svg)](https://circleci.com/gh/pulse227/zagane)
+[![GoDoc](https://godoc.org/github.com/pulse227/zagane?status.svg)](https://godoc.org/github.com/pulse227/zagane)
 
 `zagane` is a static analysis tool which can find bugs in spanner's code.
 `zagane` consists of several analyzers.
@@ -15,7 +15,7 @@
 You can get `zagane` by `go get` command.
 
 ```bash
-$ go get -u github.com/gcpug/zagane
+$ go get -u github.com/pulse227/zagane
 ```
 
 ## How to use
@@ -23,8 +23,8 @@ $ go get -u github.com/gcpug/zagane
 `zagane` run with `go vet` as below when Go is 1.12 and higher.
 
 ```bash
-$ go vet -vettool=$(which zagane) github.com/gcpug/spshovel/...
-# github.com/gcpug/spshovel/spanner
+$ go vet -vettool=$(which zagane) github.com/pulse227/spshovel/...
+# github.com/pulse227/spshovel/spanner
 spanner/spanner_service.go:29:29: iterator must be stop
 ```
 
@@ -32,8 +32,8 @@ When Go is lower than 1.12, just run `zagane` command with the package name (imp
 But it cannot accept some options such as `--tags`.
 
 ```bash
-$ zagane github.com/gcpug/spshovel/...
-~/go/src/github.com/gcpug/spshovel/spanner/spanner_service.go:29:29: iterator must be stop
+$ zagane github.com/pulse227/spshovel/...
+~/go/src/github.com/pulse227/spshovel/spanner/spanner_service.go:29:29: iterator must be stop
 ```
 
 ## Analyzers
@@ -128,7 +128,7 @@ _, _ = client.Single().Query(ctx, stmt).Next()
 
 ## Analyze with golang.org/x/tools/go/analysis
 
-You can get analyzers of zagane from [zagane.Analyzers](https://godoc.org/github.com/gcpug/zagane/zagane/#Analyzers).
+You can get analyzers of zagane from [zagane.Analyzers](https://godoc.org/github.com/pulse227/zagane/zagane/#Analyzers).
 And you can use them with [unitchecker](https://golang.org/x/tools/go/analysis/unitchecker).
 
 ## Why name is "zagane"?
